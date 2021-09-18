@@ -1,0 +1,42 @@
+{
+    "name": "fundevogel/kirby3-mastodon",
+    "description": "Interacting with Mastodon's REST API for Kirby v3",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": ["getkirby", "kirby", "kirby3", "kirby-plugin", "mastodon", "oauth", "api", "rest", "social"],
+    "authors": [
+        {
+            "name": "Kinder- und Jugendbuchhandlung Fundevogel",
+            "email": "maschinenraum@fundevogel.de",
+            "homepage": "https://fundevogel.de",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Martin Folkers",
+            "email": "hello@twobrain.io",
+            "homepage": "https://twobrain.io",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "maschinenraum@fundevogel.de",
+        "forum": "https://forum.getkirby.com",
+        "source": "https://github.com/Fundevogel/kirby3-mastodon",
+        "issues": "https://github.com/Fundevogel/kirby3-mastodon/issues"
+    },
+    "scripts": {
+        "cs-dry": "php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix"
+    },
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "fundevogel/php-mastodon": "^0.6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
